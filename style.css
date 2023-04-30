@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+
+}
+
+header .alert-msg {
+    height: 50px;
+    text-align: center;
+    color: aliceblue;
+    font-style: italic;
+    font-size: 16px;
+    padding: 15px;
+    background-color: rgb(37,25,14);
+}
+
+.alert-msg span:nth-child(1) {
+    font-size: 30px;
+    font-family: 'Oswald';
+    font-weight: 600;
+}
+
+.header-content {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.header-content span{
+    color: #25190E;
+    font-size: clamp(40px,4.5vw,  70px);
+    font-weight: 700;
+}
+
+.header-content h3 {
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.header-content h2 {
+    color: #D38144;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.header-content button {
+    padding: 12px 40px;
+    margin-top: 30px;
+    border: 5px solid #D38144;
+    outline: none;
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: ease 0.5s;
+    background-color: #D38144;
+}
+
+.header-content button:hover {
+    background-color: #fff;
+    color: #25190E;
+}
+
+main {
+
+}
+
+.img-container {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.main-content {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main-content h1 {
+    font-size: clamp(40px,4.5vw,  60px);
+    color: rgb(37,25,14);
+}
+
+.main-content p {
+    width: 56%;
+    margin: auto;
+    margin-bottom: 60px;
+    color: #25190eab;
+    font-size: 22px;
+    line-height: 1.7;
+    margin-top: 55px;
+}
+
+@media (max-width:530px) {
+    .main-content p {
+        width: 80%;
+    }
+}
+
+.main-content button {
+    padding: 12px 70px;
+    margin-bottom: 60px;
+    border: 5px solid #D38144;
+    outline: none;
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: ease 0.5s;
+    background-color: #D38144;
+}
+
+.main-content button:hover {
+    background-color: #fff;
+    color: #25190E;
+}
+
+.two-img {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two-img img {
+    margin: 10px;
+    width: 43.5%;
+}
+
+@media (max-width:800px) {
+    .two-img img {
+        width: 100%;
+        margin: 0px;
+        margin-top: 50px;
+    }
+}
+
+.main-2 {
+    text-align: center;
+}
+
+.main-2 h1 {
+    margin-top: 120px;
+    margin-bottom: 50px;
+    font-size: clamp(40px,4.5vw,  60px);
+    color: rgb(37,25,14);
+}
+
+.main-2-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.m2c {
+    margin: 30px;
+    width: 33.%;
+}
+
+.main-2-container .m2c ion-icon{
+    font-size: 2.6rem;
+    color: #D38144;
+    margin-bottom: 20px;
+}
+
+.m2c h2 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #25190E;
+}
+
+.m2c span {
+    font-size: 1.7rem;
+    color: #25190ebe;
+}
+
+.some-txt {
+    margin-top: 180px;
+}
+
+.some-txt p {
+    margin: auto;
+    margin-bottom: 50px;
+    width: 60%;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: #25190ebe;
+}
+
+@media (max-width:695px) {
+    .some-txt p {
+        width: 80%;
+    }
+}
+
+.some-txt button {
+    padding: 12px 40px;
+    margin-bottom: 60px;
+    border: 5px solid #D38144;
+    outline: none;
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: ease 0.5s;
+    background-color: #D38144;
+}
+
+.some-txt button:hover {
+    background-color: #fff;
+    color: #25190E;
+}
+.some-img {
+    margin-top: 100px;
+}
+
+.some-img img {
+    width: 100%;
+}
+
+.bottom-part {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+.bottom-part .contact h1{
+    font-size: clamp(40px,4.5vw,  60px);
+    font-weight: 700;
+    color: #25190E;
+}
+
+.contact .address, .contact .info{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.address span, .info span {
+    font-size: 0.9rem;
+}
+
+.address p, .info p {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    color: #25190ec7;
+}
+
+.form span{ 
+    font-size: 1.3rem;
+}
+
+.form{
+    width: 40%;
+}
+
+.name {
+    margin-top: 20px;
+}
+
+.name input, .form .contact input {
+    width: 230px;
+    margin: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.836);
+    padding: 14px 10px;
+}
+
+.name input:active , .name input:focus, .form .contact input:active , .form .contact input:focus{
+    outline: 4px solid #D38144;
+    border: none;
+}
+
+#msg {
+    width: 89%;
+    height: 100px;
+    margin: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    padding:10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.836);
+}
+
+#msg:active, #msg:focus{
+    outline: 4px solid #D38144;
+    border: none;
+}
+
+.form button {
+    display: block;
+    margin: 10px;
+    padding: 12px 70px;
+    border: 5px solid #D38144;
+    outline: none;
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: ease 0.5s;
+    background-color: #D38144;
+}
+
+.form button:hover {
+    background-color: #fff;
+    color: #25190E;
+}
+
+@media (max-width:1000px) {
+    .bottom-part {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form {
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    #msg {
+        width: 99%;
+    }
+}
+
+@media (max-width:600px) {
+    .name input, .form .contact input {
+        width: 100%;
+    }
+}
+
+footer { 
+    width: 100%;
+}
+
+iframe { 
+    margin-top: 40px;
+    padding: 30px;
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.foot{
+    margin-top: 20px;
+    height: 20px;
+    padding: 30px;
+    color: aliceblue;
+    background-color: #25190E;
+}
+
+.foot span a{ 
+    color: aliceblue;
+}
+
+.f-btn { 
+    position: fixed;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: #D38144;
+    right: 30px;
+    cursor: pointer;
+    bottom: 30px;
+}
+
+.f-btn ion-icon {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+@media (max-width: 874px) {
+
+    header  .alert-msg { 
+        height: 100px;
+    }
+
+    .alert-msg span{
+        display: block;
+    }
+    
+    .img-container {
+        padding: 0px;
+        padding-top: 50px;
+    }
+}
